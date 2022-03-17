@@ -1,0 +1,252 @@
+html {
+    scroll-behavior: smooth;
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+
+body {
+    background-color: #000000;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #ED691D;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FFFFFF;
+}
+
+.logo {
+    color:#FFFFFF;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.burger div {
+    width: 25px;
+    height: 5px;
+    background-color: #FFFFFF;
+    margin: 5px;
+}
+
+ 
+    
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.WesleyPost {
+    font-size: 75px;
+    padding: 150px;
+    top: 5px;
+    text-align: center;
+    color: #ed691d;
+    font-weight: bold;
+    height: 20px;
+}
+
+.Categoriën{
+    font-size: 70px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 400px;
+    font-weight: bold;
+}
+
+#Over {
+    color: #ED691D;
+    text-align: center;
+    font-size: 85px;
+    font-weight: bold;
+    height: 150px;
+}
+
+.TekstOver {
+    color:white;
+    font-size: 50px;
+    padding-bottom: 400px;
+    text-align: center;
+}
+
+#Skills {
+    color: #ED691D;
+    font-size: 85px;
+    font-weight: bold;
+    text-align:center;
+    height:150px;
+}
+
+.Irritant {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: 600px;
+}
+
+.Game {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 400px;
+    margin: 680px;
+}
+
+
+#Contactformulier {
+color: #ED691D;
+    font-size: 85px;
+    font-weight: bold;
+    height:150px;
+}
+
+/*Contactformulier*/
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 2px solid #ed691d; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+    background-color: #C7D0D1;
+}
+  
+input[type=Versturen] {
+    background-color: #ed691d;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.container {
+    border-radius: 5px;
+    padding: 20px;
+    border: #ed691d;
+}
+
+.Voornaam {
+    padding-top: 531px;
+    color:white;
+    font-size:20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Achternaam {
+    color:white;
+    font-size:20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Land {
+    color:white;
+    font-size:20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.TypeJeBericht {
+    color:white;
+    font-size:20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.buttonVersturen {
+  background-color: #ed691d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.buttonVersturen:hover {
+    background-color: #594536;
+    cursor: pointer;
+}
+  
+.copyright {
+    color: #8F8F8F;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.Privacyverklaring {
+    color: #8F8F8F;
+    text-align: center;
+    margin-bottom:20px;
+    margin-left: 700px;
+    text-decoration: none;
+}
+
+.Privacyverklaring:hover {
+    cursor: pointer;
+    color: #ed691d;
+    transition: color 0.3s ease-out;
+}
